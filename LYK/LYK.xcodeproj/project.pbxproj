@@ -97,6 +97,7 @@
 		B5155296209202F400E45D9A /* Presentation Layer */ = {
 			isa = PBXGroup;
 			children = (
+				B515529C2092042600E45D9A /* View Controllers */,
 			);
 			path = "Presentation Layer";
 			sourceTree = "<group>";
@@ -134,6 +135,29 @@
 			children = (
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B515529C2092042600E45D9A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B515529D2092045400E45D9A /* FeedViewController */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B515529D2092045400E45D9A /* FeedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B515529E2092046C00E45D9A /* Cell */,
+			);
+			path = FeedViewController;
+			sourceTree = "<group>";
+		};
+		B515529E2092046C00E45D9A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
